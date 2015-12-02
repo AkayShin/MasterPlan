@@ -1,0 +1,8 @@
+---=== CONTROL ===---
+  El programa permitirá gestionar todos los aspectos importantes de una partida de rol, ofreciendo distintas herramientas para cada caso.
+  
+  FUNCIONES:
+    -Gestionar los jugadores de la partida, pudiendo añadir datos a su ficha, desde la propia "ficha de personaje" a la historia
+    o notas informativas.
+    -Gestionar una galeria de imagenes con notas informativas en cada una.
+    -
