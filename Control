@@ -28,10 +28,28 @@ de su utilidad.
             Número de Jugadores: Un pequeño texto que hace un recuento de los jugadores que estan apuntados en esta campaña.
             Jugando: Un pequeño de texto que indica que Juego de rol se esta jugando. La información es sacada del Rulesheet.
             Detalles: Texto descriptivo de la trama principal de la campaña
-            Progreso actual: Texto que indica ekl número total de tramas creadas y el número de tramas marcadas como completadas
-  
-  FUNCIONES:
-    -Gestionar los jugadores de la partida, pudiendo añadir datos a su ficha, desde la propia "ficha de personaje" a la historia
-    o notas informativas.
-    -Gestionar una galeria de imagenes con notas informativas en cada una.
-    -
+            Progreso actual: Texto que indica el número total de tramas creadas y el número de tramas marcadas como completadas
+  Ademas de esta información, este apartado tiene la estructura principal del programa, donde el usuario va a estar de forma continua.
+  Habrá un menu en la parte superior de la ventana donde aparecerán todas las opciones posibles. Al seleccionar una, la ventana
+  mostrará el apartado seleccionado.
+  Exceptuando los campos de trama, descripcion y titulo el resto son listas donde se pueden añadir, editar y eliminar elementos, en los cuales
+  si se hace doble clic, abre el apartado correspondiente en una ventana aparte que mostrará todos los datos correspondientes
+  y ademas habra un pequeño campo de texto donde poder añadir notas especificas para ese elemento en esa trama concreta.
+    Trama: En este apartado el usuario puede crear, editar y eliminar tramas para la partida. Un campo de items desplegables que
+    el mismo puede organizar.
+          -Puede crear carpetas
+          -Puede crear tramas dentro de las carpetas
+          -Se muestran distintos cuadros donde añadir o eliminar información: Nombre, descripción detallada, Jugadores, personajes, 
+          lugares, notas, imagenes, ambientación
+    Cada vez que una trama sea seleccionada, se modificaran el resto de elementos que hay en esta sección.
+    Cualquier elemento añadido tiene un nombre personalizado, indepentientemente de su enlace correspondiente de la base de datos donde
+    esta almacenado.
+          -Nombre: será editable y modificará el nombre que se le ha puesto ha esa parte de la trama, puede considerarse como el
+          "capitulo" de la historia
+          -Descripcion detallada: Un campo de texto amplio donde poder escribir todo lo que ha de suceder en esa trama
+          -Jugadores: Lista editable de los jugadores que estan implicados en esta parte de la trama.
+          -Personajes: Lista editable de los personajes que estan implicados en esta parte de la trama.
+          -Lugares: Lista editable que permite indicar los lugares en los que se desarrolla la trama.
+          -Notas: Un campo de texto para notas rápidas para la trama.
+          -Imagenes: Una lista editable para poder gestionar imagenes de referencia para distintos fines.
+          -Ambientación: Una lista de musica que utilizar para cada momento de la trama.
