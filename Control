@@ -5,7 +5,7 @@
 La ventana principal se separa por menus, cada menu ofrece una funcionalidad distinta y sus funciones estaran interconectadas dependiendo
 de su utilidad.
   -Menu principal: Ventana con las siguientes opciones:
-                =Nuevo: Boton que al hacer clic se mostrata otra ventana donde introducir los siguientes datos para la creacion de una nueva campaña:
+                =Nuevo(Botón): Boton que al hacer clic se mostrará otra ventana donde introducir los siguientes datos para la creacion de una nueva campaña:
                           -Nombre
                           -Rulesheet (En un futuro esta opcion en vez de ser un simple campo de texto para saber que rol se esta jugando, podria
                           ser un menu desplegable donde seleccionar una opcion que definiese varios aspectos del programa, como opciones
@@ -13,15 +13,22 @@ de su utilidad.
                           -Cancelar: Botón para cancelar la operación
                           -Crear: Botón para crear la campaña. Comprobará que los dos campos estan rellenados y correctos antes de enviar
                           la información
-                =Cargar: Al hacer clic en cargar se abre una nueva ventana:
+                =Cargar(Botón): Al hacer clic en cargar se abre una nueva ventana:
                           -Campaña: Una lista desplegable que permite seleccionar todas las campañas que se han creado hasta ahora.
                           -Cancelar: Botón para cancelar la operación
                           -Aceptar: Botón para aceptar la campaña seleccionada
                           -Editar: Desbliega dos botones
                                 -Cambiar Nombre: Para cambiarle el nombre a la campaña
-                                -Eliminar: Abrirá una nueva ventana donde aparecera una lista de opciones de lo que el usuario desea borrar.
-                  =Ajustes: Botón para abrir los ajustes del programa
-                  =Base de datos: Botón para abrir la base de datos
+                                -Eliminar: Abrirá una nueva ventana donde aparecerá una lista de opciones de lo que el usuario desea borrar.
+                =Ajustes: Botón para abrir los ajustes del programa
+                =Base de datos: Botón para abrir la base de datos
+                
+  -Campaña: Al cargar o haber creado una campaña nueva se nos abrirá la ventana principal de la misma donde se dispondran distintos botones
+  e información detallada de la misma.
+            Número de Jugadores: Un pequeño texto que hace un recuento de los jugadores que estan apuntados en esta campaña.
+            Jugando: Un pequeño de texto que indica que Juego de rol se esta jugando. La información es sacada del Rulesheet.
+            Detalles: Texto descriptivo de la trama principal de la campaña
+            Progreso actual: Texto que indica ekl número total de tramas creadas y el número de tramas marcadas como completadas
   
   FUNCIONES:
     -Gestionar los jugadores de la partida, pudiendo añadir datos a su ficha, desde la propia "ficha de personaje" a la historia
