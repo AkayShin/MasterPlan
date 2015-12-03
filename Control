@@ -5,26 +5,24 @@
 La ventana principal se separa por menus, cada menu ofrece una funcionalidad distinta y sus funciones estaran interconectadas dependiendo
 de su utilidad.
   -Menu principal: Ventana con las siguientes opciones:
-                  =Nuevo: Botón para crear una nueva campaña
-                  =Cargar: Botón para cargar una campaña ya creada
+                =Nuevo: Boton que al hacer clic se mostrata otra ventana donde introducir los siguientes datos para la creacion de una nueva campaña:
+                          -Nombre
+                          -Rulesheet (En un futuro esta opcion en vez de ser un simple campo de texto para saber que rol se esta jugando, podria
+                          ser un menu desplegable donde seleccionar una opcion que definiese varios aspectos del programa, como opciones
+                          personalizadas mas adecuadas y precisas para el rol que se esta jugando)
+                          -Cancelar: Botón para cancelar la operación
+                          -Crear: Botón para crear la campaña. Comprobará que los dos campos estan rellenados y correctos antes de enviar
+                          la información
+                =Cargar: Al hacer clic en cargar se abre una nueva ventana:
+                          -Campaña: Una lista desplegable que permite seleccionar todas las campañas que se han creado hasta ahora.
+                          -Cancelar: Botón para cancelar la operación
+                          -Aceptar: Botón para aceptar la campaña seleccionada
+                          -Editar: Desbliega dos botones
+                                -Cambiar Nombre: Para cambiarle el nombre a la campaña
+                                -Eliminar: Abrirá una nueva ventana donde aparecera una lista de opciones de lo que el usuario desea borrar.
                   =Ajustes: Botón para abrir los ajustes del programa
                   =Base de datos: Botón para abrir la base de datos
-  -Nuevo: Al hacer clic en nuevo se mostrata otra ventana donde introducir los siguientes datos para la creacion de una nueva campaña:
-                  =Nombre
-                  =Rulesheet (En un futuro esta opcion en vez de ser un simple campo de texto para saber que rol se esta jugando, podria
-                  ser un menu desplegable donde seleccionar una opcion que definiese varios aspectos del programa, como opciones
-                  personalizadas mas adecuadas y precisas para el rol que se esta jugando)
-                  =Cancelar: Botón para cancelar la operación
-                  =Crear: Botón para crear la campaña. Comprobará que los dos campos estan rellenados y correctos antes de enviar
-                  la información
-  Cargar: Al hacer clic en cargar se abre una nueva ventana:
-                  =Campaña: Una lista desplegable que permite seleccionar todas las campañas que se han creado hasta ahora.
-                  =Cancelar: Botón para cancelar la operación
-                  =Aceptar: Botón para aceptar la campaña seleccionada
-                  =Editar: Desbliega dos botones
-                          -Cambiar Nombre: Para cambiarle el nombre a la campaña
-                          -Eliminar: Abrirá una nueva ventana donde aparecera una lista de opciones de lo que el usuario desea borrar.
-                          
+  
   FUNCIONES:
     -Gestionar los jugadores de la partida, pudiendo añadir datos a su ficha, desde la propia "ficha de personaje" a la historia
     o notas informativas.
