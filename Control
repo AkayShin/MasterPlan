@@ -35,6 +35,7 @@ de su utilidad.
   Exceptuando los campos de trama, descripcion y titulo el resto son listas donde se pueden añadir, editar y eliminar elementos, en los cuales
   si se hace doble clic, abre el apartado correspondiente en una ventana aparte que mostrará todos los datos correspondientes
   y ademas habra un pequeño campo de texto donde poder añadir notas especificas para ese elemento en esa trama concreta.
+  ==========================================================================================================================================================================
     Trama: En este apartado el usuario puede crear, editar y eliminar tramas para la partida. Un campo de items desplegables que
     el mismo puede organizar.
           -Puede crear carpetas
@@ -53,3 +54,7 @@ de su utilidad.
           -Notas: Un campo de texto para notas rápidas para la trama.
           -Imagenes: Una lista editable para poder gestionar imagenes de referencia para distintos fines.
           -Ambientación: Una lista de musica que utilizar para cada momento de la trama.
+  ==========================================================================================================================================================================
+    Personajes: Un apartado para crear, editar y eliminar personajes para la camaña.(incompleto)
+  ==========================================================================================================================================================================
+  *******SIGUE******
