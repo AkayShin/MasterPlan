@@ -35,9 +35,11 @@ de su utilidad.
   Exceptuando los campos de trama, descripcion y titulo el resto son listas donde se pueden añadir, editar y eliminar elementos, en los cuales
   si se hace doble clic, abre el apartado correspondiente en una ventana aparte que mostrará todos los datos correspondientes
   y ademas habra un pequeño campo de texto donde poder añadir notas especificas para ese elemento en esa trama concreta.
+  ==========================================================================================================================================================================  
+  ==========================================================================TRAMA===========================================================================================
   ==========================================================================================================================================================================
-    Trama: En este apartado el usuario puede crear, editar y eliminar tramas para la partida. Un campo de items desplegables que
-    el mismo puede organizar.
+  En este apartado el usuario puede crear, editar y eliminar tramas para la partida. Un campo de items desplegables que
+    él mismo puede organizar.
           -Puede crear carpetas
           -Puede crear tramas dentro de las carpetas
           -Se muestran distintos cuadros donde añadir o eliminar información: Nombre, descripción detallada, Jugadores, personajes, 
@@ -54,7 +56,40 @@ de su utilidad.
           -Notas: Un campo de texto para notas rápidas para la trama.
           -Imagenes: Una lista editable para poder gestionar imagenes de referencia para distintos fines.
           -Ambientación: Una lista de musica que utilizar para cada momento de la trama.
+  ==========================================================================================================================================================================  
+  ==========================================================================PERSONAJES======================================================================================
   ==========================================================================================================================================================================
-    Personajes: Un apartado para crear, editar y eliminar personajes para la camaña.(incompleto)
-  ==========================================================================================================================================================================
-  *******SIGUE******
+  Este apartado esta repartido en tres pestañas. La primera de ellas contiene informacion básica y accesible del personaje, la segunda
+  contiene una imagen del personaje subida por el propio usuario, la tercera es la ficha del personaje. No tienen porque estar en ese
+  orden necesariamente.
+ 
+ Pestaña 1: 
+    Nombre y apellidos: Dos campos de texto para el nombre completo del personaje. No tienen que ser únicos.
+    Residencia: Dos listas desplegables, una de ellas con las provincias o naciones, a criterio del jugador. La segunda lista desplegable
+    se rellenará con las ciudades o pueblos que el usuario haya marcado que pertenecen a esa provincia o nación.
+    Profesion: Un campo de texto para escribir la profesión del personaje.
+    Edad: Un campo de texto para indicar la edad.
+    Familia: Una lista donde se podra hacer relacion entre los personajes, permitiendo clicar en los que hay en la lista para acceder
+    a sus datos en una ventana aparte. Además de que la propia lista permitira indicar que relación familiar mantienen los personajes.
+    Personalidad: Campo de texto para escribir todo lo que necesita saberse de la personalidad. Como se comporta y reacciona de manera
+    habitual, su forma de hablar o todo aquello que el usuario considere que debe poner.
+    Cometido: Un campo de texto donde escribir el cometido que tiene el personaje en el mundo en que vive. Ya sea su sueño además
+    de lo que el propio usuario tenga pensado que debe sucederle.
+    Gustos personales: Campo de texto para indicar los gustos personales del personaje.
+    Relación con los jugadores: Un campo de texto donde añadir la relación que mantiene el personaje con los jugadores, ya sea de forma
+    individual o en conjunto.
+    Historia: Un campo de texto donde escribir la historia del personaje. Adjuntar un documento complementario podría ser muy útil.
+    Muerto: Un pequeño cuadro de selección para activar que se detecte al personaje como muerto o no.
+  
+Pestaña 2:
+    Añadir: Botón para añadir una imagen. Al hacer clic se abre la ventana del explorador para buscar la imagen en el equipo y añadirla.
+    Una vez añadida la pestaña mostrara la imagen y dejara seguir dandole al botón Añadir, si volvemos a realizar el proceso, la nueva
+    imagen sustituirá a la anterior.
+    
+Pestaña 3:
+    Ficha: Futuro apartado donde se podra rellenar una ficha seleccionando previamente el Rulesheet que usas para ella y que aparezcan
+    los campos correspondientes. Por lo pronto permitira añadir un documento que sea la ficha.
+  
+  
+  
+  
