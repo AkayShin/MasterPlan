@@ -2,6 +2,8 @@
 
 - A todos los botones les añadiría algún elemento que diga que está cargando, asi ahorramos bucles innecesarios (aunque imagino
     que al principio la BBDD cargara rápido)
+    ====Lo veo bien, podriamos añadir la tipica barra de carga, habrá que pensar que elementos son estrictamente necesarios de
+    cargar cada vez que se le da a un botón===
   
 - Según la estructura del menú:
     - Menu principal
@@ -10,18 +12,40 @@
     - Campaña
         - Trama
         - Personajes
-        
 
 - Porqué dar acceso al master a la bbbdd? Es un riesgo de seguridad que quizá puedes subsanar con un gestor de archivos completo del 
   programa
+  
+====Mi intencion era que la base de datos estuviese almacenada como en la MHDEX, un archivo local, el botón de la base de datos
+  no te abre la base de datos en si, si no que te abre un menu donde puedes buscar a base de filtros todo lo que se ha almacenado
+  en el programa, y editarlo desde ahi (personajes, lugares, jugadores, bla bla bla), sin tener que entrar a la campaña. Como por ejemplo el hecho de no recordar en que campaña
+  tenias un lugar y te da algun problema al intentar insertarlo en otra campaña, poder acceder a un lugar donde esta todo almacenado
+  y te permite editarlo sin tener que entrar a la campaña puede estar muy bien. No se  si me he explicado...=====
 
 - Yo incluiría una pestaña mas de "npcs" en TRAMA, (algo así) en donde el master puede gestionar sus personajes y llevarselos 
   cómodamente de una campaña a otra (a parte de la pestaña de jugadores)
+
+====El apartado Personajes interpretalo como NPC, los jugadores son los personajes de los jugadores, los personajes son los NPC.
+  El rollo esta en que tu cuando almacenas algo en tu campaña, eso hace que se almacene en la base de datos. Vayas a la campaña
+  que vayas, vas a poder añadir eso que has insertado previamente. El de donde gestiones el añadir o eliminar algo no limita a que
+  solo sea ahí. Por eso el boton en el menu principal de BBDD.====
 
 - La pestañas de Personajes son datos rellenados por el máster, o rellenado por el jugador?
     - En el caso que lo rellenara el jugador, se podría hacer un pequeño formulario que se enviara a la bbdd y al master le saliera todo
       (editable para el master)
 
+====Lo de personajes ya esta dicho, pero la mimsa duda puede aplicarse a jugadores. La pestaña jugadores tiene varios apartados
+      uno de ellos es la informacion del jugador (campañas en las que juega, nombre, cosas asi) y "el resto" de apartados son las fichas
+      de sus distintos personajes, ya que un jugador puede tener varios personajes (estos personajes se diferencian COMPLETAMENTE de los
+      personajes NPC).
+      Lo del formulario lo veo bien. Ya el que se enviase a la BBDD esta obligando al master a tenr un servidor instalado que acepte las
+      peticiones a la BBDD y no podria ser una aplicación "todoterreno". Pero si vería generar un botón que deje importar un archivo
+      de forma que lo lee e importa toda la informacion rellenando una ficha dentro del programa. Donde el master ya podría editar todo.====
+
 - Las imagenes de los personajes deberían aconsejarse un tamaño x concreto (dependiendo si es el avatar, si es la imagen completa 
   320x320, 800x600 x ej.), así evitamos el tener que programar un resizer
+
+====Lo veo OK, aunque tal vez en vez de forzar algo tan especifico, simplemente añadimos un minimo y un maximo. Si se pasa o se queda
+corto da error, si no, la imagen se añade. El jframe se va a ajustar el solito y poner controles de hacer la ventana grande o desplazarse
+se hace activando una opcion me parece.====
   
