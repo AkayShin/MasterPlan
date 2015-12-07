@@ -1,0 +1,27 @@
+
+
+- A todos los botones les añadiría algún elemento que diga que está cargando, asi ahorramos bucles innecesarios (aunque imagino
+    que al principio la BBDD cargara rápido)
+  
+- Según la estructura del menú:
+    - Menu principal
+        Nuevo
+        Cargar
+    - Campaña
+        - Trama
+        - Personajes
+        
+
+- Porqué dar acceso al master a la bbbdd? Es un riesgo de seguridad que quizá puedes subsanar con un gestor de archivos completo del 
+  programa
+
+- Yo incluiría una pestaña mas de "npcs" en TRAMA, (algo así) en donde el master puede gestionar sus personajes y llevarselos 
+  cómodamente de una campaña a otra (a parte de la pestaña de jugadores)
+
+- La pestañas de Personajes son datos rellenados por el máster, o rellenado por el jugador?
+    - En el caso que lo rellenara el jugador, se podría hacer un pequeño formulario que se enviara a la bbdd y al master le saliera todo
+      (editable para el master)
+
+- Las imagenes de los personajes deberían aconsejarse un tamaño x concreto (dependiendo si es el avatar, si es la imagen completa 
+  320x320, 800x600 x ej.), así evitamos el tener que programar un resizer
+  
