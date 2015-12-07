@@ -59,6 +59,8 @@ de su utilidad.
   ==========================================================================================================================================================================  
   ==========================================================================PERSONAJES======================================================================================
   ==========================================================================================================================================================================
+  Los personajes son controlados por el Master, no es lo mismo que un Jugador, el cual tiene sus personajes de forma independiente y
+  diferenciada. 
   Este apartado esta repartido en tres pestañas. La primera de ellas contiene informacion básica y accesible del personaje, la segunda
   contiene una imagen del personaje subida por el propio usuario, la tercera es la ficha del personaje. No tienen porque estar en ese
   orden necesariamente.
@@ -88,8 +90,31 @@ Pestaña 2:
     
 Pestaña 3:
     Ficha: Futuro apartado donde se podra rellenar una ficha seleccionando previamente el Rulesheet que usas para ella y que aparezcan
-    los campos correspondientes. Por lo pronto permitira añadir un documento que sea la ficha.
-  
-  
-  
-  
+    los campos correspondientes. Por lo pronto permitira añadir un documento que sea la ficha. El sistema ideal sería la capacidad
+    de importar un archivo que fuese un formulario y rellenase los campos dentro del programa.
+
+==========================================================================================================================================================================  
+==========================================================================JUGADORES=======================================================================================
+==========================================================================================================================================================================
+Nuevamente, este apartado se divide en pestañas. Con la diferencia de que es el propio usuario el que crea pestañas nuevas. Un jugador
+tiene datos concretos y generales independientemente de que personaje tenga en cada partida. Desde su nombre real y su edad, hasta saber
+en que campañas le tienes jugando o cualquier dato de caracter informativo.
+Un jugador puede tener mas de un solo personaje. Y ademas puede estar jugando mas de un rol distinto. Por lo que la capacidad de añadir
+o eliminar pestañas que contengan la ficha del personaje correspondiente es importante.
+    Pestaña 1: En esta pestaña se encuentran todos los datos generales del jugador.
+        Nombre:Campo de texto para el nombre real o identificativo para el jugador.
+        ---
+    Pestañas Personalizables:
+        Seran apartados parecidos al menú completo de Personajes, pero haciendo los ajustes pertinentes para que sea especifico de
+        jugadores. (Hay datos como la experiencia, o dependiendo del rol algunos atributos, habilidades o caracteristicas, que solo
+        estan disponibles para los jugadores.)
+        
+==========================================================================================================================================================================  
+==========================================================================LUGARES=========================================================================================
+==========================================================================================================================================================================
+
+    Provincias/Paises:
+    Ciudades/Pueblos:
+    Lugares de interes:
+    Edificios:
+    Ubicaciones:
