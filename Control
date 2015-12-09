@@ -104,6 +104,7 @@ Un jugador puede tener mas de un solo personaje. Y ademas puede estar jugando ma
 o eliminar pestañas que contengan la ficha del personaje correspondiente es importante.
     Pestaña 1: En esta pestaña se encuentran todos los datos generales del jugador.
         Nombre:Campo de texto para el nombre real o identificativo para el jugador.
+        Campañas: Listado de campañas en las que juega.
         ---
     Pestañas Personalizables:
         Seran apartados parecidos al menú completo de Personajes, pero haciendo los ajustes pertinentes para que sea especifico de
@@ -113,9 +114,74 @@ o eliminar pestañas que contengan la ficha del personaje correspondiente es imp
 ==========================================================================================================================================================================  
 ==========================================================================LUGARES=========================================================================================
 ==========================================================================================================================================================================
+Apartado que nuevamente esta repartido en pestañas. Cada pestaña engloba un determinado grupo de Lugares que pueden existir dentro de un universo.
 
+IDEAL: Lo ideal seria una pestaña por cada opcion, al seleccionar la pestaña se mostraria una lista desplegable de todos los lugares existentes.
+Al lado de la lista desplegable habría botones para añadir o eliminar la opcion seleccionada. Al seleccionar un ítem de la lista desplegable
+se mostraria un campo donde instertar una imagen (Podría incluso ser de varios campos, para poder insertar distintas imagenes de distintos
+planos o situaciones), dicha imagen sería "interactiva". Se podría hacer clic derecho en cualquier parte y aparecería un menu que dejaría
+insertar "puntos de interes", Que permiten añadir nombre y descripción, además de una lista de ìtems de la base de datos, como pueden ser
+mas lugares, personajes, etc. Al añadirlo quedaría fijo y al hacer clic en ellos se podría ver el nombre, la descripción y el resto de
+añadidos.
+    
+    Universos/Mundos:
+        Nombre: Campo de texto para introducir el nombre.
+        Existe en: Listado de campañas en las que existe. Se pueden añadir o quitar. Al hacer clic en un elemento de la lista, se verá
+        modificado el resto de la pestaña.
+        Descripción: Campo de texto para una descripción detallada del lugar.
+        Mapa: Un campo donde poder insertar una imagen.
     Provincias/Paises:
+        Nombre: Campo de texto para introducir el nombre.
+        Existe en: Listado de campañas en las que existe. Se pueden añadir o quitar. Al hacer clic en un elemento de la lista, se verá
+        modificado el resto de la pestaña.
+        Descripción: Campo de texto para una descripción detallada del lugar.
+        Mapa: Un campo donde poder insertar una imagen.
     Ciudades/Pueblos:
+        Nombre: Campo de texto para introducir el nombre.
+        Existe en: Listado de campañas en las que existe. Se pueden añadir o quitar. Al hacer clic en un elemento de la lista, se verá
+        modificado el resto de la pestaña.
+        Descripción: Campo de texto para una descripción detallada del lugar.
+        Mapa: Un campo donde poder insertar una imagen.
     Lugares de interes:
+        Nombre: Campo de texto para introducir el nombre.
+        Existe en: Listado de campañas en las que existe. Se pueden añadir o quitar. Al hacer clic en un elemento de la lista, se verá
+        modificado el resto de la pestaña.
+        Descripción: Campo de texto para una descripción detallada del lugar.
+        Mapa: Un campo donde poder insertar una imagen.
     Edificios:
+        Nombre: Campo de texto para introducir el nombre.
+        Existe en: Listado de campañas en las que existe. Se pueden añadir o quitar. Al hacer clic en un elemento de la lista, se verá
+        modificado el resto de la pestaña.
+        Descripción: Campo de texto para una descripción detallada del lugar.
+        Mapa: Un campo donde poder insertar una imagen.
     Ubicaciones:
+        Nombre: Campo de texto para introducir el nombre.
+        Existe en: Listado de campañas en las que existe. Se pueden añadir o quitar. Al hacer clic en un elemento de la lista, se verá
+        modificado el resto de la pestaña.
+        Descripción: Campo de texto para una descripción detallada del lugar.
+        Mapa: Un campo donde poder insertar una imagen.
+
+==========================================================================================================================================================================  
+================================================================REGLAS PERSONALIZADAS=====================================================================================
+==========================================================================================================================================================================
+  Nombre: Campo de texto para poner un nombre identificativo a la regla que se esta creando.
+  Campañas: Lista de campañas en la sque se esta usando esta regla.
+  Detalles: Un campo de texto amplio para poder describir con todo detalle las características de la regla.
+  
+=========================================================================================================================================================================  
+=================================================================NOTAS===================================================================================================
+=========================================================================================================================================================================
+Este apartado esta dividido en dos secciones, una de ellas es una lista con todas las notas, las cuales pueden organizarse según le convenga
+al usuario, la otra seccion es un campo de texto que se verá afectado por la nota seleccionada y que contendra todos los detalles de la misma.
+==========================================================================================================================================================================  
+=================================================================IMAGENES=================================================================================================
+==========================================================================================================================================================================
+Este apartado esta dividido en dos secciones, una de ellas es una lista con todas las imagenes, las cuales pueden organizarse según le convenga
+al usuario, la otra seccion tendra un campo de texto para la descripción, y una lista del resto de ítems que estan usando esta imagen, ya sean
+personajes, lugares, jugadores, etc.
+==========================================================================================================================================================================  
+=================================================================AMBIENTACIÓN=============================================================================================
+==========================================================================================================================================================================
+Este apartado esta dividido en dos secciones, una de ellas es una lista con todas las CANCIONES, las cuales pueden organizarse según le convenga
+al usuario, la otra seccion tendra un campo de texto para la descripción, y una lista del resto de ítems que estan usando esta imagen, ya sean
+personajes, lugares, jugadores, etc.
