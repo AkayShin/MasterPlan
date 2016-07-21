@@ -93,6 +93,38 @@ Pestaña 3:
     Ficha: Futuro apartado donde se podra rellenar una ficha seleccionando previamente el Rulesheet que usas para ella y que aparezcan
     los campos correspondientes. Por lo pronto permitira añadir un documento que sea la ficha. El sistema ideal sería la capacidad
     de importar un archivo que fuese un formulario y rellenase los campos dentro del programa.
+    
+    
+    DETALLES DEL PERSONAJE:
+    
+    Para darle mas profundidad al personaje, existe una grafico en forma de disco que se basa en un sistema de puntos. De 0 a 100.
+    Al rellenar todos los datos con una puntuación y hacer un grafico de ello podemos ver de forma acertada como es su personalidad.
+        Los rasgos son:
+          -Talkative
+          -Enthusiastic
+          -Spontaneous
+          -Persuasive
+          -Peaceful
+          -Loyal
+          -Good Listener
+          -Dependable
+          -Systematic
+          -Detailed
+          -Organized
+          -Orderly
+          -Productive
+          -Competitive
+          -Aggresive
+          -Headstrong
+          -Extraversion
+          -Introversion
+          -Sensing
+          -Intuition
+          -Thinking
+          -Feeling
+          -Judging
+          -Perceiving
+    Se utiliza tambien el modelo de Myers Briggs para acompañar al grafico.
 
 ==========================================================================================================================================================================  
 ==========================================================================JUGADORES=======================================================================================
