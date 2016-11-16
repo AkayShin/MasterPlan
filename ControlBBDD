@@ -1,0 +1,35 @@
+==================================================================================================
+================================ESTRUCTURA EXPERIMENTAL DE LA BBDD================================
+==================================================================================================
+Campaña >------< Regla Personalizada
+      |
+      |-------< Trama --------< Capitulo >------< Lugar
+                  |
+                  |>-------< Personaje ------- Ficha
+                                  |
+                                  |---------- Historia
+                                  |
+                                  |>--------- Jugador ---------- Usuario ----------- Master
+                                  
+                                  
+Notas y Ambientacion esta en relación con todo.
+
+==================================================================================================
+================================ESTRUCTURA INDIVIDUAL DE CADA TABLA===============================
+==================================================================================================
+
+Si empieza por: a=Atributo r=Tabla relacional x=Clave Ajena
+
+Usuario: aNombre, aAlias, aEmail
+
+Campaña: aNombre, aSistema, rJugador
+
+Jugador: xUsuario, xPersonaje, rCampaña
+
+Personaje: xFicha, xHistoria, xJugador, aNombre, rTrama
+
+Trama: rPersonaje, aNombre, xCampaña
+
+Capitulo: xTrama, aNombre, rLugar
+
+Lugar: rCapitulo,
